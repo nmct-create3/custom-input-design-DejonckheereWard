@@ -898,7 +898,23 @@ input::placeholder {
    justify-content: space-between;
  }
 
-/*------------------------------------*\
+
+/*
+ Component: Custom select
+*/
+
+.c-custom-select {
+  display: block;
+}
+
+.c-custom-select__symbol {
+  width: 24px;
+  height: 24px;
+  fill: var(--color-neutral-x-light);
+  pointer-events: none;
+}
+
+ /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
 
